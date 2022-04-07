@@ -1,0 +1,232 @@
+* {
+  border: 0;
+  margin: 0;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: 0.6fr 3fr;
+  height: 100vh;
+  background-color: aqua;
+  font-family: 'Roboto', sans-serif;
+  ;
+}
+
+#side-bar {
+  background-color: #1B92D3;
+  color: white;
+  display: grid;
+  justify-content: center;
+  grid-gap: 50px;
+  grid-template-rows: 40px 200px 200px;
+}
+
+#side-bar-section1 #side-bar-section2 {
+  padding-bottom: 20px;
+}
+
+#side-bar-logo {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+}
+
+#side-bar-logo a {
+  font-size: 20px;
+  padding-left: 10px;
+  font-weight: 500;
+  text-decoration: none;
+  color: white;
+}
+
+#side-bar-section div {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+
+}
+
+#side-bar-section div a {
+  padding-left: 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+#side-bar-section div a:hover {
+  color: #36D31B;
+}
+
+#dashboard {
+  display: grid;
+  grid-template-rows: 0.9fr 3fr;
+  background-color: #E2E8F0;
+}
+
+#dashboard-navigation {
+  background-color: white;
+  display: grid;
+  grid-template-rows: 2fr 3fr;
+  padding: 0px 40px;
+  align-items: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#dashboard-navigation-top {
+  display: grid;
+  grid-template-columns: 3fr 0.8fr;
+  align-items: center;
+  padding: 0 25px;
+}
+
+#dashboard-navigation-top-left {
+  display: flex;
+  align-items: center;
+}
+
+#dashboard-navigation-top-searchbar {
+  background-color: lightgrey;
+  border-radius: 12px;
+  padding-left: 10px;
+  height: 1.2rem;
+  width: 70%;
+}
+
+#dashboard-navigation-top-right {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+#dashboard-navigation-bottom {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+#dashboard-navigation-bottom-left {
+  display: grid;
+  grid-template-columns: 0.05fr 1fr;
+  align-items: center;
+}
+
+#dashboard-navigation-bottom-right {
+  align-items: center;
+  justify-content: end;
+  display: flex;
+}
+
+.dashbord-navigation-bottom-right-buttons {
+  margin-right: 25px;
+  background-color: #1B92D3;
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+#dashboard-main {
+  display: grid;
+  grid-template-columns: 1fr 0.4fr;
+  padding: 30px 20px 0 20px;
+}
+
+#dashboard-main-left {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.2fr 1fr 1fr 1fr;
+  grid-gap: 0 10px;
+}
+
+.projects strong {
+  color: black;
+  font-size: 14px;
+}
+
+.projects strong:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 14.5px;
+}
+
+.projects {
+  margin-bottom: 20px;
+  background-color: white;
+  color: rgb(104, 104, 104);
+  display: grid;
+  grid-template-rows: 0.3fr 1fr 1fr;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border-radius: 8px;
+  border-left: 8px solid orange;
+  padding: 20px 20px 20px 10px;
+  font-size: 12px;
+  height: 100px;
+  width: 80%;
+}
+
+.projects-icons {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.projects-icons svg {
+  height: 20px;
+  width: 20px;
+}
+
+.projects-icons svg:hover {
+  height: 22px;
+  width: 22px;
+  cursor: pointer;
+}
+
+
+#announcements-container {
+  background-color: white;
+  color: black;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border-radius: 8px;
+  padding: 25px 20px;
+  display: grid;
+  grid-gap: 15px;
+  margin-bottom: 30px;
+}
+
+#dashboard-announcements h4 {
+  margin-top: 10px;
+  padding-bottom: 9px;
+
+}
+
+.announcements h5 {
+  color: black;
+  font-size: small;
+
+}
+
+.announcements {
+  font-size: 12px;
+  color: rgb(104, 104, 104);
+}
+
+#dashboard-trending {
+  background-color: white;
+  color: black;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border-radius: 8px;
+  padding: 25px 20px;
+  display: grid;
+  grid-gap: 15px;
+  x
+}
+
+.trending-box {
+  display: grid;
+  grid-template-columns: 0.20fr 1fr;
+  font-size: 12px;
+  align-items: center;
+  color: darkgray;
+}
